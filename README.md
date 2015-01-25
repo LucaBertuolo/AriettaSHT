@@ -16,7 +16,6 @@
 
 ##Code examples:
    ```
-   from ablib import Pin
    from AriettaSHT7x import Sensirion
    SHT75 = Sensirion('PA22','PA21')
    print SHT75.read('TEMP')
